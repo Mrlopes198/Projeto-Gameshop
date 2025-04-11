@@ -1,0 +1,62 @@
+Ok, analisei os dados dos três arquivos (Shopee, AliExpress, Etsy). Aqui estão as respostas:
+Qual o produto mais vendido?
+Para determinar o produto mais vendido, somei a coluna quantity para cada product_sold em todos os arquivos.
+NEW MEGANIUM RG 40XXV: 14 (Shopee) + 10 (AliExpress) + 17 (Etsy) = 41 unidades
+NEW MEGANIUM RG35XX: 11 (Shopee) + 14 (AliExpress) + 11 (Etsy) = 36 unidades
+NEW MEGANIUM RG CubeXX: 18 (Shopee) + 12 (AliExpress) + 6 (Etsy) = 36 unidades
+MEGANIUM RG353M: 8 (Shopee) + 9 (AliExpress) + 12 (Etsy) = 29 unidades
+NEW MEGANIUM RG28XX: 13 (Shopee) + 13 (AliExpress) + 10 (Etsy) = 36 unidades
+Resposta: O produto mais vendido é o NEW MEGANIUM RG 40XXV, com 41 unidades vendidas no total.
+Quais os 3 países que são os maiores compradores do produto mais vendido (NEW MEGANIUM RG 40XXV)?
+Somei a quantidade vendida do "NEW MEGANIUM RG 40XXV" por delivery_country:
+Canadá: 5 + 5 + 1 (Shopee) + 4 + 3 + 1 (Etsy) = 19 unidades
+Japão: 2 + 1 (Shopee) + 5 + 3 (Etsy) = 11 unidades
+Alemanha: 5 + 1 (AliExpress) + 1 (Etsy) = 7 unidades
+França: 4 (AliExpress) = 4 unidades
+Resposta: Os 3 maiores países compradores do "NEW MEGANIUM RG 40XXV" são Canadá (19 unidades), Japão (11 unidades) e Alemanha (7 unidades).
+Qual site tem maior percentual de vendas do produto mais vendido (NEW MEGANIUM RG 40XXV)?
+O total de vendas do "NEW MEGANIUM RG 40XXV" foi de 41 unidades.
+Vendas por site:
+Shopee: 14 unidades
+AliExpress: 10 unidades
+Etsy: 17 unidades
+Percentuais:
+Shopee: (14 / 41) * 100% ≈ 34.15%
+AliExpress: (10 / 41) * 100% ≈ 24.39%
+Etsy: (17 / 41) * 100% ≈ 41.46%
+Resposta: O site com maior percentual de vendas do "NEW MEGANIUM RG 40XXV" é a Etsy (aproximadamente 41.46%).
+
+Com base nos dados fornecidos, podemos tirar algumas conclusões para otimizar o transporte e a logística antes da venda (focando em estoque, armazenamento e preparação):
+Previsão de Demanda e Gestão de Estoque por SKU:
+Observação: O produto "NEW MEGANIUM RG 40XXV" é o mais vendido (41 unidades), mas outros como "RG35XX", "CubeXX" e "RG28XX" também têm volumes significativos (36 unidades cada neste período). O "RG353M" tem uma demanda menor (29 unidades).
+Otimização:
+Priorizar Estoque: Manter níveis de estoque mais altos para os SKUs de maior volume (RG 40XXV, RG35XX, CubeXX, RG28XX) para evitar rupturas.
+Estoque de Segurança: Ajustar o estoque de segurança com base na popularidade e variabilidade das vendas de cada SKU. Pode ser necessário um estoque de segurança maior para o RG 40XXV.
+Revisão do RG353M: Analisar se o nível de estoque atual do RG353M é adequado ou se pode ser reduzido para diminuir custos de armazenagem.
+Armazenamento Regionalizado (Hubs Logísticos):
+Observação: Há uma concentração significativa de vendas do produto mais vendido (RG 40XXV) para o Canadá (19 unidades), Japão (11 unidades) e Alemanha (7 unidades). Outros países como França, Austrália e Reino Unido também aparecem com frequência em outros produtos.
+Otimização:
+Centros de Distribuição Estratégicos: Em vez de enviar tudo de um único local de origem, avaliar a viabilidade de ter centros de distribuição (ou usar parceiros logísticos 3PL) mais próximos dessas regiões de alta demanda (Ex: um na América do Norte, um na Europa Central, um na Ásia-Pacífico).
+Redução de Custos e Tempo de Trânsito Inbound: Isso pode reduzir o custo e o tempo do transporte para esses hubs regionais, permitindo que o estoque esteja mais perto do cliente final antes mesmo da venda ocorrer. Isso agiliza a entrega final (embora a otimização da entrega final seja pós-venda, ter o estoque perto ajuda).
+Alocação de Estoque por Canal de Venda:
+Observação: O produto mais vendido (RG 40XXV) teve mais unidades vendidas pela Etsy (17 unidades) do que pela Shopee (14) ou AliExpress (10) neste período. A distribuição pode variar para outros SKUs.
+Otimização:
+Estoque Dedicado (Opcional): Se certos canais consistentemente vendem mais de um SKU específico ou para uma região específica, pode fazer sentido alocar estoque em armazéns ou com parceiros logísticos que atendam melhor às exigências daquele canal (ex: se a Etsy tem muitos compradores no Canadá, o estoque no hub da América do Norte deve estar preparado para atender essa demanda). Cuidado: Isso requer análise mais profunda para não fragmentar demais o estoque.
+Análise de Sazonalidade e Tendências (Limitado pelos Dados):
+Observação: Os dados cobrem de maio a outubro de 2024. Não há um pico óbvio neste recorte, mas vendas ocorrem consistentemente.
+Otimização:
+Monitoramento Contínuo: Coletar dados ao longo de um ano ou mais para identificar picos sazonais (ex: feriados, volta às aulas) ou tendências de crescimento/declínio para cada SKU.
+Planejamento Antecipado: Usar essas tendências para planejar a compra de matéria-prima, produção e transporte para os armazéns com antecedência, evitando custos de frete expresso de última hora.
+Otimização do Transporte Inbound (do Fabricante para o Armazém):
+Observação: Diferentes SKUs têm volumes de venda variados.
+Otimização:
+Consolidação de Cargas: Agrupar pedidos de diferentes SKUs do mesmo fornecedor (se aplicável) ou consolidar remessas para os hubs regionais para obter melhores taxas de frete (ex: usar contêineres cheios em vez de carga fracionada sempre que possível, baseado na previsão de demanda).
+Negociação com Transportadoras: Usar os dados de volume (total e por rota/região) para negociar melhores tarifas com as transportadoras para o transporte do estoque até seus pontos de armazenamento/distribuição.
+Em Resumo:
+A otimização pré-venda, com base nesses dados, foca em:
+Ter a quantidade certa (previsão e gestão de estoque por SKU).
+Do produto certo (priorizando os mais vendidos).
+No lugar certo (armazenamento regionalizado perto dos maiores mercados como Canadá, Japão, Alemanha).
+No tempo certo (antecipando a demanda com base em tendências e sazonalidade).
+Com o custo de inbound otimizado (consolidação de cargas e negociação).
+É crucial continuar coletando e analisando dados para refinar essas estratégias continuamente.

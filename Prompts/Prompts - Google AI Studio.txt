@@ -1,0 +1,6 @@
+Utilize esses 3 arquivos como sua base de dados para responder as perguntas a seguir:
+Qual o produto mais vendido?
+Quais os 3 países que  são  os maiores compradores do produto mais vendido?
+Qual site tem maior percentual de vendas dos produto mais vendido?
+
+Com base na base de dados, como otimizar o processo de transporte e logística até o momento da venda?
